@@ -112,8 +112,9 @@
 					<th>Aksi</th>
 				</tr>	
 			</thead>
-			<?php  $no = 1; foreach ($view as $a ) {?>
+			
 			<tbody>
+      <?php  $no = 1; foreach ($view as $a ) {?>
 				<tr>
 					<td><?php echo $no++; ?></td>
 					<td><?php echo $a['nim']; ?></td>
@@ -180,11 +181,11 @@
     $('#example1').DataTable()
     $('#example2').DataTable({
       'paging'      : true,
-      'lengthChange': true,
-      'searching'   : true,
+      'lengthChange': false,
+      'searching'   : false,
       'ordering'    : true,
       'info'        : true,
-      'autoWidth'   : true
+      'autoWidth'   : false
     })
   })
 </script>
