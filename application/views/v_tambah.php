@@ -395,7 +395,7 @@
                     <div class="form-group">
                         <label class="control-label col-xs-3" >Nomor HP</label>
                         <div class="col-xs-8">
-                            <input name="nomer_hp" class="form-control" type="number" placeholder="Nomor HP" required>
+                            <input name="nomor_hp" class="form-control" type="number" placeholder="Nomor HP" required>
                         </div>
                     </div>
 				
